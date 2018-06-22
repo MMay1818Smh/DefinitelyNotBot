@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === 'Trainings') {
+    	message.channel.send('@everyone Shift! Come on down to the cafe for a possible promotion! https://www.roblox.com/games/1835287884/May-Cafe');
   	}
 });
 
