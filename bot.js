@@ -21,10 +21,64 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === '-ban') {
-    	message.reply('You will now be banned for banning someone else!');
+    if (message.content === 'fuck') {
+    	message.reply('Do not swear in this discord server!');
   	}
 });
-
+client.on('message', message => {
+    if (message.content === 'Fuck') {
+    	message.reply('Do not swear in this discord server!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'bitch') {
+    	message.reply('Do not swear in this discord server!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Bitch') {
+    	message.reply('Do not swear in this discord server!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'cunt') {
+    	message.reply('Do not swear in this discord server!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Cunt') {
+    	message.reply('Do not swear in this discord server!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'asshole') {
+    	message.reply('Do not swear in this discord server!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Asshole') {
+    	message.reply('Do not swear in this discord server!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'ass') {
+    	message.reply('Do not swear in this discord server!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Ass') {
+    	message.reply('Do not swear in this discord server!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '-close') {
+    	message.channel.send('@everyone This chat is now closed. Talking WILL get you banned! This is your one and only warning!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '-open') {
+    	message.channel.send('@everyone The chat is now open. You may now talk freely!');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
