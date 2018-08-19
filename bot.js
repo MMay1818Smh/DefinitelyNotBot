@@ -78,7 +78,13 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === '-open') {
     	message.channel.send('@everyone The chat is now open. You may now talk freely!');
+  	} 
+ });
+client.on('message', message => {
+    if (message.content === '@MMay1818') {
+    	message.reply('DO NOT TAG MAY!');
   	}
+
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
