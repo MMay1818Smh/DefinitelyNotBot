@@ -82,7 +82,9 @@ client.on('message', message => {
     });
 client.on('message', message => {
     if (message.content === 'transfer') {
-    	message.channel.send('**TRANSFER OF OWNERSHIP** To all of you who dont know, @Omq_Conner now owns May Cafe. MMay1818 just holds the group and oversees it. **PLEASE DONT DM MMAY1818 OR TAG HIM WITH ANY QUESTIONS** You can DM @omq_conner or tag him. -May Cafe Assistant. [Announcement posted by: MMay1818 on 9-4-18 at 9:14 PM EST]');
+    	message.channel.send('**TRANSFER OF OWNERSHIP** To all of you who dont know, @Omq_Conner now owns May Cafe. MMay1818 just holds the group and oversees it. **PLEASE DONT DM MMAY1818 OR TAG HIM WITH ANY QUESTIONS** You can DM @omq_conner or tag him. Thank you have a good rest of your Tuesday. -May Cafe Assistant. 
+                             [Announcement posted by: MMay1818 on 9-4-18 at 9:17 PM EST]
+                             *Copyright 2018; May Cafe Assistant* All rights Reserved');
   	} 
  });
 client.on('message', message => {
