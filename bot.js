@@ -6,85 +6,123 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '-shift') {
-    	message.channel.send('@everyone Shift! Come on down to the cafe for a possible promotion! https://www.roblox.com/games/1835287884/May-Cafe');
+    if (message.content === '!show') {
+    	message.channel.send('@everyone ` There is a show going on in 15 minutes! Come on down to the theatre to watch! Link:link: : https://www.roblox.com/games/2683021995/Henry-Theatre-Theatre `
+                             
+                             ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
-    if (message.content === '-interviews') {
-    	message.channel.send('@everyone Interviews! Interviews are starting in 15 minutes! Hurry and join! https://www.roblox.com/games/1887056994/May-Cafe-Interview-Centere');
+    if (message.content === '!auditions') {
+    	message.channel.send('@everyone `Auditions are happening in 15 minutes. These are hosted by @Management and up. Come on down to get an actor position! https://www.roblox.com/games/2744510875/Auditions `
+                             
+                             ***Scripted by MMay1818***');
     }
 });
 client.on('message', message => {
-    if (message.content === '-trainings') {
-    	message.channel.send('@everyone Trainings! Trainings are starting in 15 minutes! Hurry and join! https://www.roblox.com/games/1890506534/May-Cafes-GRAND-OPENING-Trainings');
+    if (message.content === '') {
+    	message.channel.send('');
   	}
 });
 client.on('message', message => {
     if (message.content === 'fuck') {
-    	message.reply('Do not swear in this discord server!');
+    	message.reply('Do not swear in this discord server!
+                      
+                      ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
     if (message.content === 'Fuck') {
-    	message.reply('Do not swear in this discord server!');
+    	message.reply('Do not swear in this discord server!
+                      
+                      ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
     if (message.content === 'bitch') {
-    	message.reply('Do not swear in this discord server!');
+    	message.reply('Do not swear in this discord server!
+                      
+                      ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
     if (message.content === 'Bitch') {
-    	message.reply('Do not swear in this discord server!');
+    	message.reply('Do not swear in this discord server!
+                      
+                      ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
     if (message.content === 'cunt') {
-    	message.reply('Do not swear in this discord server!');
+    	message.reply('Do not swear in this discord server!
+                      
+                      ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
     if (message.content === 'Cunt') {
-    	message.reply('Do not swear in this discord server!');
+    	message.reply('Do not swear in this discord server!
+                      
+                      ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
     if (message.content === 'asshole') {
-    	message.reply('Do not swear in this discord server!');
+    	message.reply('Do not swear in this discord server!
+                      
+                      ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
     if (message.content === 'Asshole') {
-    	message.reply('Do not swear in this discord server!');
+    	message.reply('Do not swear in this discord server!
+                      
+                      ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
     if (message.content === 'ass') {
-    	message.reply('Do not swear in this discord server!');
+    	message.reply('Do not swear in this discord server!
+                      
+                      ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
     if (message.content === 'Ass') {
-    	message.reply('Do not swear in this discord server!');
+    	message.reply('Do not swear in this discord server!
+                      
+                      ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
-    if (message.content === '-close') {
-    	message.channel.send('@everyone This chat is now closed. Talking WILL get you banned! This is your one and only warning!');
+    if (message.content === '!close') {
+    	message.channel.send('@everyone This chat is now closed. Talking ***WILL*** get you banned! This is your one and only warning!
+                             
+                             ***Scripted by MMay1818***');
   	}
 });
 client.on('message', message => {
-    if (message.content === '-open') {
-    	message.channel.send('@everyone The chat is now open. You may now talk freely!');
+    if (message.content === '!open') {
+    	message.channel.send('@everyone The chat is now open. You may now talk freely!
+                             
+                             ***Scripted by MMay1818***');
   	} 
     });
+        client.on('message', message => {
+    if (message.content === '!trainings') {
+    	message.reply('I'm sorry. The Henry Theatre Training Center is not completed yet. DM MMay1818 for more information.
+                      
+                      ***Scripted by MMay1818***');
+  	}
+});
 client.on('message', message => {
-    if (message.content === 'transfer') {
-    	message.channel.send('**TRANSFER OF OWNERSHIP** To all of you who dont know, @Omq_Conner now owns May Cafe. MMay1818 just holds the group and oversees it. **PLEASE DONT DM MMAY1818 OR TAG HIM WITH ANY QUESTIONS** You can DM @omq_conner or tag him. Thank you have a good rest of your Tuesday. -May Cafe Assistant. 
-                             [Announcement posted by: MMay1818 on 9-4-18 at 9:17 PM EST]
-                             *Copyright 2018; May Cafe Assistant* All rights Reserved');
+    if (message.content === 'ht') {
+    	message.channel.send('***Henry Theatre Assistant**
+                             Henry Theatre assistant is an user-friendly bot scripted by MMay1818. @MR @HR @SHR staff can use this bot to host sessions. Follow the format below:
+                             **THEATRE SHOW:** "!show"
+                             **AUDITIONS:** "!auditions"
+                             **TRAININGS:** "!trainings"
+                             ***Copyright 2019. Henry Theatre Assistant|| Scripted by MMay1818');
   	} 
  });
 client.on('message', message => {
