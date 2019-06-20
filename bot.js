@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!shift') {
-    	message.channel.send ({embed: {
+    if (message.content === '-shift') {
+    	message.reply.send ({embed: {
   color: 0xff0000,
   title: "Session Announcement",
   description: " test"
