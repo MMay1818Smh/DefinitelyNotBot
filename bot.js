@@ -1,25 +1,4 @@
-var Discord = require("discord.js");
-var prefix = "-";
-var client = new Discord.Client();
 
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.on('ready', () => {
-    console.log('I am ready!');
- if (msg.author.bot) return;
-  if (!msg.member.hasPermission("ADMINISTRATOR")) return;
-
-  if (!msg.content.toLowerCase().startsWith(prefix)) return;
-  msg.delete();
-  if (msg.content.toLowerCase().startsWith(prefix + "kick ")) {
-    var mem = msg.mentions.members.first();
-    mem.kick().then(() => {
-      msg.channel.send(mem.displayName + " has successfully been kicked by " + msg.author.username + "!");
-    }).catch(e => {
-      msg.channel.send("An error occured!");
-    });
-  }
 });
 
 client.on('message', message => {
