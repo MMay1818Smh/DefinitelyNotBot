@@ -13,8 +13,6 @@ client.on('message', message => {
   description: " test"
   
 }});;
-  	}
-});
 
 client.on('message', message => {
     if (message.content === 'bing') {
