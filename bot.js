@@ -6,8 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!show') {
-    	message.channel.send('@everyone ` There is a show going on in 15 minutes! Come on down to the theatre to watch! Link:link: : https://www.roblox.com/games/2683021995/Henry-Theatre-Theatre ` ***Scripted by MMay1818***');
+    if (message.content === '!shift') {
+    	message.channel.send({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}});;
   	}
 });
 client.on('message', message => {
