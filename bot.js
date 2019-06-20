@@ -14,7 +14,7 @@ client.on('message', message => {
     if (message.content === '-shift') {
 message.channel.send({embed: {
   color: 0xff0000,
-  title: "Session Announcement"
+  title: "Session Announcement",
   description: "Test"
 }});
 
