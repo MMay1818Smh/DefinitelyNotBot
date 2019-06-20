@@ -1,6 +1,6 @@
-const Discord = require('discord.js');
-const prefix = "-";
-const client = new Discord.Client();
+var Discord = require('discord.js');
+var prefix = "-";
+var client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
