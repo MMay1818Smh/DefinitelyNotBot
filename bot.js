@@ -1,24 +1,25 @@
+var Discord = require("discord.js");
+var prefix = "-";
+var client = new Discord.Client();
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-});
-  if (msg.author.bot) return;
-  if (!msg.member.hasPermission("KICK MEMBERS")) return;
-client.on("message", (message) => {
-    if (message.content.startsWith("!kick")) {
-        // Easy way to get member object though mentions.
-        var member= message.mentions.members.first();
-        // Kick
-        member.kick().then((member) => {
-            // Successmessage
-            message.channel.send(":wave: " + member.displayName + " has been successfully kicked :point_right: ");
-        }).catch(() => {
-             // Failmessage
-            message.channel.send("Access Denied");
-        });
-    }
+ if (msg.author.bot) return;
+  if (!msg.member.hasPermission("ADMINISTRATOR")) return;
+
+  if (!msg.content.toLowerCase().startsWith(prefix)) return;
+  msg.delete();
+  if (msg.content.toLowerCase().startsWith(prefix + "kick ")) {
+    var mem = msg.mentions.members.first();
+    mem.kick().then(() => {
+      msg.channel.send(mem.displayName + " has successfully been kicked by " + msg.author.username + "!");
+    }).catch(e => {
+      msg.channel.send("An error occured!");
+    });
+  }
 });
 
 client.on('message', message => {
