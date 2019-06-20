@@ -10,7 +10,7 @@ client.on('message', message => {
     	message.channel.send ({embed: {
   color: 0xff0000,
   title: "Session Announcement",
-  description: " test"
+  description: " test"..server.id
   
 }});;
   	}
