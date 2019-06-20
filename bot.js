@@ -4,6 +4,8 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('I am ready!');
 });
+  if (msg.author.bot) return;
+  if (!msg.member.hasPermission("KICK MEMBERS")) return;
 client.on("message", (message) => {
     if (message.content.startsWith("!kick")) {
         // Easy way to get member object though mentions.
