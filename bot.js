@@ -12,7 +12,7 @@ client.on('message', message => {
   title: "Session Announcement",
   description: " test"
   
-}});;
+}});
 
 client.on('message', message => {
     if (message.content === 'bing') {
