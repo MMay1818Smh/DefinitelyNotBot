@@ -8,7 +8,7 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!shift') {
     	message.channel.send({embed: {
-  color: 5757,
+  color: FF5757,
   description: "A very simple Embed!"
 }});;
   	}
