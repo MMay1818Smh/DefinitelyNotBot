@@ -5,7 +5,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
  
-
 client.on('message', message => {
     if (message.content === '-shift') {
     	message.reply.send ({embed: {
