@@ -10,6 +10,11 @@ client.on('message', message => {
     	message.reply('BONG!');
   	}
 });
+message.channel.send({embed: {
+  color: 0xff0000,
+  title: "Session Announcement"
+  description: "Test"
+}});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
