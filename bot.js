@@ -6,8 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === '-shift') {
+    	message.reply.send ({embed: {
+  color: 0xff0000,
+  title: "Session Announcement",
+  description: " test"
+  
+}});;
   	}
 });
 
