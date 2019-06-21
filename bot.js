@@ -10,6 +10,16 @@ client.on('message', message => {
     	message.reply('@everyone hi enjoy this random tag!)');
   	}
 });
+client.on('message', message => {
+    if (message.content === '-help') {
+    	message.reply({embed: {
+  color: 0xff0000,
+  title: "Flippin' Burgers Help",
+  description: "-command here","-command here","-command here"
+  
+}});;
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
