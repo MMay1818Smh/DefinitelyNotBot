@@ -6,17 +6,10 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'bing') {
-    	message.reply('BONG!');
+    if (message.content === 'fav') {
+    	message.reply('IS CONNERS FAVORITE. NOT ASHLEY!');
   	}
 });
-client.on('message', message => {
-    if (message.content === '-shift') {
-message.channel.send({embed: {
-  color: 0xff0000,
-  title: "Session Announcement",
-  description: "Test"
-}});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
