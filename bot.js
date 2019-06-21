@@ -15,7 +15,7 @@ client.on('message', message => {
     	message.reply({embed: {
   color: 0xff0000,
   title: "Flippin' Burgers Help",
-  description: "-command here","-command here","-command here"
+  description: "-command here"
   
 }});;
   	}
