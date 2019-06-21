@@ -15,7 +15,7 @@ client.on('message', message => {
     	message.reply({embed: {
   color: 0xff0000,
   title: "Session Announcement",
-  description: " test"
+  description: "@everyone test"
   
 }});;
   	}
