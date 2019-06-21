@@ -12,10 +12,10 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === '-test') {
-    	message.reply({embed: {
+    	message.reply("@everyone")({embed: {
   color: 0xff0000,
   title: "Session Announcement",
-  description: "@everyone test"
+  description: " test"
   
 }});;
   	}
