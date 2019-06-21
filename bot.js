@@ -10,6 +10,15 @@ client.on('message', message => {
     	message.reply('ur not conners favorite, matt is.   ;)');
   	}
 });
-
+client.on('message', message => {
+    if (message.content === '-test') {
+    	message.reply({embed: {
+  color: 0xff0000,
+  title: "Session Announcement",
+  description: " test"
+  
+}});;
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
