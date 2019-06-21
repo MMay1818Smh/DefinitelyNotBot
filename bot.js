@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === '-test') {
-    	message.reply("@everyone")({embed: {
+    	message.send("@everyone") ({embed: {
   color: 0xff0000,
   title: "Session Announcement",
   description: " test"
