@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'fav') {
-    	message.reply('IS CONNERS FAVORITE. NOT ASHLEY!');
+    	message.reply('IS CONNERS OVERALL FAVORITE. NOT ASHLEY!');
   	}
 });
 
