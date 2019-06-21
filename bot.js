@@ -6,14 +6,10 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'fav') {
-    	message.reply('ur not conners favorite, matt is.   ;)');
-  	}
-});
-client.on('message', message => {
     if (message.content === '-test') {
-    	message.send("@everyone")
+    	message.reply('@everyone hi enjoy this random tag!)');
   	}
 });
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
