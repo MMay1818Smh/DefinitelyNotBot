@@ -13,8 +13,6 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === '-test') {
     	message.send("@everyone")
-  
-}});;
   	}
 });
 // THIS  MUST  BE  THIS  WAY
