@@ -34,6 +34,16 @@ client.on("message", (message) => {
         });
     }
 });
+client.on("message", (message) => {
+    if (message.content.startsWith("-kick")) {
+         if (msg.guild.roles.find("name", "Muted")) {
+      mem.removeRole(msg.guild.roles.find("name", "Muted")).then(() => {
+        msg.channel.send(mem.displayName + " has successfully been unmuted!");
+      }).catch(e => {
+        msg.channel.send("An error occured!");
+      });
+         }
+    });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
