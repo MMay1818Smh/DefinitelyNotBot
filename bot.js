@@ -10,8 +10,6 @@ client.on('message', message => {
     	message.reply('@everyone hi enjoy this random tag!)');
   	}
 });
-if (!msg.member.hasPermission("ADMINISTRATOR")) return;
-
 client.on('message', message => {
     if (message.content === ';help') {
     	message.reply({embed: {
