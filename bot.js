@@ -15,8 +15,7 @@ client.on('message', message => {
     	message.reply({embed: {
   color: 0xff5555,
   title: "Crumblez Assistant Commands",
-  description: ";kick (username):[Moderators only]",
-  description: ";command here"
+  description: ";kick (username):[Moderators only] \n;test"
   
 }});;
   	}
