@@ -21,7 +21,6 @@ client.on('message', message => {
   	}
 });
 client.on("message", (message) => {
-     if (!msg.member.hasPermission("KICK MEMBERS")) return;
     if (message.content.startsWith("-kick")) {
         // Easy way to get member object though mentions.
         var member= message.mentions.members.first();
