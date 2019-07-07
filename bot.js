@@ -11,11 +11,12 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === '-help') {
+    if (message.content === ';help') {
     	message.reply({embed: {
-  color: 0xff0000,
-  title: "Flippin' Burgers Help",
-  description: "-command here"
+  color: 0xff5555,
+  title: "Crumblez Assistant Commands",
+  description: ";kick (username):[Moderators only]",
+  description: ";command here"
   
 }});;
   	}
