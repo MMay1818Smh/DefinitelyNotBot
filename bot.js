@@ -15,13 +15,13 @@ client.on('message', message => {
     	message.reply({embed: {
   color: 0xff5555,
   title: "Crumblez Assistant Commands",
-  description: ";kick (username):[Moderators only] \n;test"
+  description: ";kick (username):[Moderators only] \n;command \n'command \n;command \n;command"
   
 }});;
   	}
 });
 client.on("message", (message) => {
-    if (message.content.startsWith("-kick")) {
+    if (message.content.startsWith(";kick")) {
         // Easy way to get member object though mentions.
         var member= message.mentions.members.first();
         // Kick
@@ -35,12 +35,13 @@ client.on("message", (message) => {
     }
 });
 client.on("message", (message) => {
-    if (message.content.startsWith("-kick")) {
+    if (message.content.startsWith(";mute")) {
+         var member= message.mentions.members.first();
          if (msg.guild.roles.find("name", "Muted")) {
-      mem.removeRole(msg.guild.roles.find("name", "Muted")).then(() => {
-        msg.channel.send(mem.displayName + " has successfully been unmuted!");
-      }).catch(e => {
-        msg.channel.send("An error occured!");
+         mem.removeRole(msg.guild.roles.find("name", "Muted")).then(() => {
+             msg.channel.send(mem.displayName + " has successfully been unmuted!");
+         }).catch(e => {
+          msg.channel.send("An error occured!");
       });
          }
     });
