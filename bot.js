@@ -1,11 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => {
+client.on('ready', ( bot.user.setPresence({ status: 'online', game: { name: 'insert message here' } });) => {
     console.log('I am ready!');
 });
- 
-bot.user.setPresence({ status: 'online', game: { name: 'Test' } }); 
 
 client.on('message', message => {
     if (message.content === '-test') {
